@@ -47,8 +47,7 @@ steps:
     arguments: '--configuration publish --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: false
 
-steps:
- - task: PublishBuildArtifacts@1
+- task: PublishBuildArtifacts@1
 
 
 
